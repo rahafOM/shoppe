@@ -125,20 +125,25 @@ span {
 }
 
 .add-to-cart-btn {
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  position: absolute;     
+  bottom: 15px;              
+  left: 50%;                  
+  transform: translateX(-50%); 
+  opacity: 0;                  
+  transition: opacity 0.5s ease, transform 0.3s ease;
   border-radius: 20px;
   background-color: rgb(245, 245, 245);
   color: gray;
   border: 2px solid white;
-  bottom: 15px;
-  left: 100px;
-  padding: 6px;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;        
+  z-index: 1;    
 }
 
 .product-card:hover .add-to-cart-btn {
+  color: #616060;
   opacity: 1;
+  transform: translateX(-50%) translateY(-5px); 
 }
 
 .product-card img {
