@@ -19,7 +19,7 @@ body {
   overflow: hidden;
   background: #eee;
   position: relative;
-  margin-bottom: 92px;
+  margin-bottom: 40px;
 
 }
 
@@ -162,6 +162,11 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+  .hero-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .hero .carousel-item img {
     height: 260px;
   }
@@ -172,7 +177,9 @@ footer {
     padding: 18px;
     width: 100%;
   }
-
+  .typing-effect{
+  border-right: none;
+  }
   .slider {
     display: none;
   }
