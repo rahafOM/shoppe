@@ -13,6 +13,10 @@ body {
   color: #D4AF37 !important;
 }
 
+nav .nav1{
+  border-right: #918e8e solid 1.5px;
+}
+
 /* Hero */
 .hero {
   border-radius: 14px;
@@ -89,7 +93,6 @@ body {
   margin: 18px 0;
   color: #504e4e;
 }
-
 .product-card {
   border-radius: 12px;
   padding: 15px;
@@ -182,5 +185,16 @@ footer {
   }
   .slider {
     display: none;
+  }
+    .col-md-4 {
+    width: 50%;
+  }
+  nav .nav1{
+  border-right: none
+}
+}
+@media screen and (max-width: 576px) {
+  .col-md-4 {
+    width: 100%;
   }
 }
