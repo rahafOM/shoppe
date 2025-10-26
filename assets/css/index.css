@@ -12,11 +12,6 @@ body {
 .nav-link:hover {
   color: #D4AF37 !important;
 }
-
-nav .nav1{
-  border-right: #918e8e solid 1.5px;
-}
-
 /* Hero */
 .hero {
   border-radius: 14px;
