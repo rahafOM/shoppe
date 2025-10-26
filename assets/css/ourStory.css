@@ -1,0 +1,32 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+h2, h4 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  color: #333;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+img {
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-secondary {
+  color: #555 !important;
+}
