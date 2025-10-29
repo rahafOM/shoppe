@@ -1,0 +1,44 @@
+.forgot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    text-align: left;
+    margin: 210px 0;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #645f5f;
+    border-radius: 0;
+}
+
+.btn-reset {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 100px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-reset:hover {
+    background-color: #948e8e;
+}
+
+.alert {
+    display: none;
+    margin-top: 20px;
+}
