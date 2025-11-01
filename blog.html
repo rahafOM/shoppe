@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Jewelry Store</title>
+    <link rel="icon" href="./assets/image/jewelry.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+</head>
+
+<body>
+    <div class="container-xl">
+        <!-- Header -->
+        <header class="site-top d-flex align-items-center justify-content-between p-3 border-bottom">
+            <!-- Logo -->
+            <div class="site-logo">
+                <a href="./index.html">
+                    <img src="./assets/image/SHOPPE.png" alt="Shoppe Logo" height="30" />
+                </a>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="d-none d-lg-flex gap-3 align-items-center">
+                <ul class="nav align-items-center mb-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted fw-bold fs-5" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted fw-bold fs-5" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted fw-bold fs-5" href="./OurStory.html">Our Story</a>
+                    </li>
+                </ul>
+
+                <!-- Icons -->
+                <div class="icons d-flex align-items-center gap-3 flex-wrap">
+                    <a href="#">
+                        <img src="./assets/image/Icon color.png" alt="Search" height="20" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/image/shopping-cart 1.png" alt="Cart" height="22" />
+                    </a>
+                    <a href="./MyAccount.html">
+                        <img src="./assets/image/Icon color (1).png" alt="Profile" height="20" />
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Icon  -->
+            <div class="d-lg-none">
+                <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+                    <img src="./assets/image/menu.png" alt="Menu" height="25" />
+                </button>
+            </div>
+        </header>
+
+        <!-- Collapsible Mobile Menu -->
+        <div class="collapse bg-white border-top" id="mobileMenu">
+            <ul class="nav flex-column text-center py-3">
+                <li class="nav-item">
+                    <a class="nav-link text-muted fw-bold fs-5" href="./shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted fw-bold fs-5" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted fw-bold fs-5" href="./OurStory.html">Our Story</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-center gap-3 pb-3">
+                <a href="#"><img src="./assets/image/Icon color.png" alt="Search" height="20" /></a>
+                <a href="#"><img src="./assets/image/shopping-cart 1.png" alt="Cart" height="22" /></a>
+                <a href="./MyAccount.html"><img src="./assets/image/Icon color (1).png" alt="Profile" height="20" /></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="post-header">
+                <p class="text-muted mb-1">by <strong>Admin</strong> - October 4, 2020</p>
+                <img src="./assets/image/Img 01 (3).png" alt="image">
+            </div>
+
+            <div class="post-content">
+                <p class="reveal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim nisi non eros luctus, in
+                    sodales odio luctus.
+                    Sed nec velit at lorem tincidunt tincidunt. Aenean facilisis euismod orci, eget varius lacus
+                    convallis non.
+                </p>
+                <img src="./assets/image/Img 02 (1).png" alt="image" class="reveal">
+                <p class="reveal">
+                    Integer id orci ac orci vehicula hendrerit non non mi. Donec ut suscipit metus, a rhoncus orci.
+                    Vivamus tincidunt
+                    lectus eget sem feugiat, sit amet laoreet velit placerat. Praesent a faucibus libero.
+                </p>
+
+                <div class="text-center mt-4 share-icons reveal">
+                    <span class="text-muted me-2">Share:</span>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="comment-section reveal">
+                <h5 class="mb-4">Leave a Comment</h5>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Your comment..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Post Comment</button>
+                </form>
+
+                <div class="mt-5">
+                    <div class="comment">
+                        <img src="./assets/image/user1.jpg" alt="User">
+                        <div>
+                            <strong>Jane Doe</strong> <small class="text-muted">• April 8, 2023</small>
+                            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper
+                                dictum sapien, in efficitur nisl.</p>
+                            <span class="reply">Reply</span>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="./assets/image/user2.jpg" alt="User">
+                        <div>
+                            <strong>Sarah Lee</strong> <small class="text-muted">• Oct 9, 2025</small>
+                            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, hic?.</p>
+                            <span class="reply">Reply</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="foot mt-5 border-top pt-4 pb-3 bg-white">
+            <div class="container">
+                <div class="row text-center text-md-start gy-4">
+
+                    <!-- Left Section -->
+                    <div class="col-12 col-md-5">
+                        <ul
+                            class="list-unstyled d-flex flex-column flex-md-row justify-content-center justify-content-md-start gap-2 gap-md-4 mb-3">
+                            <li>
+                                <a href="./contact.html" class="text-muted text-decoration-none">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-muted text-decoration-none">Terms of Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-muted text-decoration-none">Shipping and Returns</a>
+                            </li>
+                        </ul>
+                        <div class="text-muted small text-center text-md-start">
+                            © 2025 Shoppe. Terms of use and privacy policy.
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Section -->
+                    <div class="col-12 col-md-4">
+                        <form
+                            class="newsletter-form d-flex flex-column flex-sm-row justify-content-center align-items-center border-bottom pb-2 mx-auto"
+                            style="max-width: 360px;">
+                            <input type="email"
+                                class="form-control border-0 text-center text-sm-start shadow-none mb-2 mb-sm-0"
+                                placeholder="Give an email, get the newsletter" />
+                            <button type="submit" class="btn border-0 text-muted">
+                                <i class="bi bi-arrow-right fs-5"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#" class="text-muted fs-5"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-muted fs-5"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-muted fs-5"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-muted fs-5"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener("scroll", reveal);
+
+        function reveal() {
+            const reveals = document.querySelectorAll(".reveal, .comment, .comment-section");
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 100;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        reveal();
+    </script>
+</body>
+
+</html>

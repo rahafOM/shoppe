@@ -1,0 +1,80 @@
+ @import url(./footer.css);
+ body {
+ font-family: 'Poppins', sans-serif;
+ }
+ .post-header {
+ text-align: center;
+ margin-top: 40px;
+ }
+ .post-header img {
+ width: 100%;
+ border-radius: 10px;
+ margin-top: 20px;
+ }
+ .post-content {
+ max-width: 800px;
+ margin: 50px auto;
+ }
+ .post-content img {
+ width: 100%;
+ border-radius: 10px;
+ margin: 40px 0;
+ }
+ .share-icons a {
+ color: #635d5d;
+ margin: 0 10px;
+ font-size: 20px;
+ transition: color 0.3s;
+ }
+ .share-icons a:hover {
+ color: #d4af37;
+ }
+ .comment-section {
+ max-width: 800px;
+ margin: 60px auto;
+ border-top: 1px solid #444;
+ padding-top: 40px;
+ transition: all 1s ease;
+ }
+ .form-control, .form-control:focus {
+ border: 1px solid #555;
+ }
+ .btn-custom {
+ border: 1px solid #fff;
+ transition: all 0.3s;
+ }
+ .btn-custom:hover {
+ color: #000;
+ }
+ .comment {
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 25px;
+ transition: all 1s ease;
+ }
+ .comment img {
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ margin-right: 15px;
+ }
+ .comment .reply {
+ font-size: 14px;
+ cursor: pointer;
+ }
+ .comment .reply:hover {
+ text-decoration: underline;
+ }
+
+ @keyframes fadeUp {
+ to {
+ transform: translateY(0);
+ }
+ }
+ .reveal {
+ transform: translateY(40px);
+ transition: all 1s ease;
+ }
+ .reveal.active {
+ transform: translateY(0);
+ }

@@ -1,80 +1,76 @@
+@import url(./footer.css);
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+background-color: #fff;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-/* لتوسيط نموذج الحساب أسفل الهيدر */
 .account-container {
-  padding: 0 150px;
-  text-align: center;
- margin: 125px 0;
+padding: 0 150px;
+text-align: center;
+margin: 125px 0;
 }
 
-/* العنوان */
 .account-container h2 {
-  margin-bottom: 30px;
-  font-weight: 600;
+margin-bottom: 30px;
+font-weight: 600;
 }
 
-/* الأزرار العلوية (sign in / register) */
 .tab-buttons {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  margin-bottom: 30px;
+display: flex;
+justify-content: center;
+overflow: hidden;
+margin-bottom: 30px;
 }
 
 .tab-buttons button {
-  flex: 1;
-  border: none;
-  background: none;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: all 0.3s;
+flex: 1;
+border: none;
+background: none;
+padding: 10px;
+cursor: pointer;
+font-weight: 500;
+transition: all 0.3s;
 }
 
 .tab-buttons button.active {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid black;
+background-color: #f8f9fa;
+border-bottom: 2px solid black;
 }
 
-/* الحقول */
 .form-control {
-  border: none;
-  border-bottom: 1px solid #ddd;
-  border-radius: 0;
-  box-shadow: none !important;
-  padding-left: 0;
+border: none;
+border-bottom: 1px solid #ddd;
+border-radius: 0;
+box-shadow: none !important;
+padding-left: 0;
 }
 
 .btn-signin {
-  background-color: black;
-  color: white;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  font-weight: 500;
-  border: none;
-  margin-top: 15px;
+background-color: black;
+color: white;
+width: 100%;
+padding: 10px;
+border-radius: 4px;
+font-weight: 500;
+border: none;
+margin-top: 15px;
 }
 
 .btn-signin:hover {
-  opacity: 0.9;
+opacity: 0.9;
 }
 
 .forgot {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #666;
+margin-top: 15px;
+font-size: 14px;
+color: #666;
 }
 
 .forgot a {
-  color: #000;
-  text-decoration: none;
-  font-weight: 500;
+color: #000;
+text-decoration: none;
+font-weight: 500;
 }

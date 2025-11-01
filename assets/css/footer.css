@@ -1,0 +1,23 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+    }
+footer .social-icons a {
+    transition: color 0.3s ease;
+  }
+
+  footer .social-icons a:hover {
+    color: #d4af37;
+  }
+
+  footer input::placeholder {
+    color: #999;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    footer ul {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center;
+    }
+  }

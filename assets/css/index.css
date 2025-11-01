@@ -1,196 +1,196 @@
-body {
-  background: #fff;
-  color: #222;
-  font-family: "Work Sans", sans-serif;
-}
+ @import url(./footer.css);
+ body {
+ background: #fff;
+ color: #222;
+ }
 
-/* Header */
-.site-top {
-  padding: 25px 0;
-}
+ /* Header */
+ .site-top {
+ padding: 25px 0;
+ }
 
-.nav-link:hover {
-  color: #D4AF37 !important;
-}
-/* Hero */
-.hero {
-  border-radius: 14px;
-  overflow: hidden;
-  background: #eee;
-  position: relative;
-  margin-bottom: 40px;
-  margin-top: 15px;
+ .nav-link:hover {
+ color: #D4AF37 !important;
+ }
+ /* Hero */
+ .hero {
+ border-radius: 14px;
+ overflow: hidden;
+ background: #eee;
+ position: relative;
+ margin-bottom: 40px;
+ margin-top: 15px;
 
-}
+ }
 
-.hero .carousel-item img {
-  object-fit: cover;
-  height: 420px;
-  width: 100%;
-}
+ .hero .carousel-item img {
+ object-fit: cover;
+ height: 420px;
+ width: 100%;
+ }
 
-.hero-caption {
-  position: absolute;
-  left: 40px;
-  top: 35%;
-  color: #fff;
-}
+ .hero-caption {
+ position: absolute;
+ left: 40px;
+ top: 35%;
+ color: #fff;
+ }
 
-.hero-caption h2 {
-  font-size: 45px;
-  margin-bottom: 10px;
-}
+ .hero-caption h2 {
+ font-size: 45px;
+ margin-bottom: 10px;
+ }
 
-.typing-effect {
-  width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 3px solid #d4b652;
-  animation: typing 2s steps(30, end) forwards, blink 0.7s step-end infinite;
-}
+ .typing-effect {
+ width: 0;
+ overflow: hidden;
+ white-space: nowrap;
+ border-right: 3px solid #d4b652;
+ animation: typing 2s steps(30, end) forwards, blink 0.7s step-end infinite;
+ }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
+ @keyframes typing {
+ from {
+ width: 0;
+ }
 
-  to {
-    width: 100%;
-  }
-}
+ to {
+ width: 100%;
+ }
+ }
 
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
+ @keyframes blink {
+ 50% {
+ border-color: transparent;
+ }
+ }
 
-.hero-caption p {
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 18px;
-  font-size: 25px;
-}
+ .hero-caption p {
+ color: rgba(255, 255, 255, 0.9);
+ margin-bottom: 18px;
+ font-size: 25px;
+ }
 
-.hero .btn-outline-light {
-  border-color: rgba(255, 255, 255, 0.6);
-}
+ .hero .btn-outline-light {
+ border-color: rgba(255, 255, 255, 0.6);
+ }
 
-.hero .slider {
-  position: absolute;
-  bottom: 30px;
-  left: 40%;
-}
+ .hero .slider {
+ position: absolute;
+ bottom: 30px;
+ left: 40%;
+ }
 
-/* Products */
-.section-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 18px 0;
-  color: #504e4e;
-}
-.product-card {
-  border-radius: 12px;
-  padding: 15px;
-  cursor: pointer;
-}
+ /* Products */
+ .section-title {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 18px 0;
+ color: #504e4e;
+ }
+ .product-card {
+ border-radius: 12px;
+ padding: 15px;
+ cursor: pointer;
+ }
 
-.product-card:hover {
-  transform: translateY(-5px);
-  transition: all 0.7s;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+ .product-card:hover {
+ transform: translateY(-5px);
+ transition: all 0.7s;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
 
-.product-card img {
-  border-radius: 8px;
-  width: 100%;
-  object-fit: cover;
-}
+ .product-card img {
+ border-radius: 8px;
+ width: 100%;
+ object-fit: cover;
+ }
 
-.product-title {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+ .product-title {
+ font-size: 20px;
+ font-weight: 600;
+ margin-top: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
 
-span {
-  font-size: 16px;
-  color: #ad9e59;
-}
+ span {
+ font-size: 16px;
+ color: #ad9e59;
+ }
 
-.product-card {
-  transition: all 0.3s ease;
-}
+ .product-card {
+ transition: all 0.3s ease;
+ }
 
-.add-to-cart-btn {
-  position: absolute;     
-  bottom: 15px;              
-  left: 50%;                  
-  transform: translateX(-50%); 
-  opacity: 0;                  
-  transition: opacity 0.5s ease, transform 0.3s ease;
-  border-radius: 20px;
-  background-color: rgb(245, 245, 245);
-  color: gray;
-  border: 2px solid white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;        
-  z-index: 1;    
-}
+ .add-to-cart-btn {
+ position: absolute;
+ bottom: 15px;
+ left: 50%;
+ transform: translateX(-50%);
+ opacity: 0;
+ transition: opacity 0.5s ease, transform 0.3s ease;
+ border-radius: 20px;
+ background-color: rgb(245, 245, 245);
+ color: gray;
+ border: 2px solid white;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ z-index: 1;
+ }
 
-.product-card:hover .add-to-cart-btn {
-  color: #616060;
-  opacity: 1;
-  transform: translateX(-50%) translateY(-5px); 
-}
+ .product-card:hover .add-to-cart-btn {
+ color: #616060;
+ opacity: 1;
+ transform: translateX(-50%) translateY(-5px);
+ }
 
-.product-card img {
-  transition: transform 0.3s ease;
-}
+ .product-card img {
+ transition: transform 0.3s ease;
+ }
 
-.product-card:hover img {
-  transform: scale(1.05);
-}
+ .product-card:hover img {
+ transform: scale(1.05);
+ }
 
-/* Footer */
-footer {
-  padding: 36px 0;
-  font-size: 13px;
-  color: #9b9b9b;
-}
+ /* Footer */
+ footer {
+ padding: 36px 0;
+ font-size: 13px;
+ color: #9b9b9b;
+ }
 
-@media screen and (max-width:768px) {
-  .hero-caption{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero .carousel-item img {
-    height: 260px;
-  }
+ @media screen and (max-width:768px) {
+ .hero-caption{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+ .hero .carousel-item img {
+ height: 260px;
+ }
 
-  .hero-caption {
-    position: static;
-    background-color: #865f5f;
-    padding: 18px;
-    width: 100%;
-  }
-  .typing-effect{
-  border-right: none;
-  }
-  .slider {
-    display: none;
-  }
-    .col-md-4 {
-    width: 50%;
-  }
-  nav .nav1{
-  border-right: none
-}
-}
-@media screen and (max-width: 576px) {
-  .col-md-4 {
-    width: 100%;
-  }
-}
+ .hero-caption {
+ position: static;
+ background-color: #9b8888;
+ padding: 18px;
+ width: 100%;
+ }
+ .typing-effect{
+ border-right: none;
+ }
+ .slider {
+ display: none;
+ }
+ .col-md-4 {
+ width: 50%;
+ }
+ nav .nav1{
+ border-right: none
+ }
+ }
+ @media screen and (max-width: 576px) {
+ .col-md-4 {
+ width: 100%;
+ }
+ }

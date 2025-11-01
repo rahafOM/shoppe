@@ -1,175 +1,174 @@
-body {
-    background-color: #fff;
-    font-family: "Open Sans", sans-serif;
-}
-
+@import url(./footer.css);
 nav li .shop {
-    text-decoration-line: underline;
+text-decoration-line: underline;
 }
 
 .filter-section {
-    border-right: 1px solid #ddd;
-    padding-right: 20px;
+border-right: 1px solid #ddd;
+padding-right: 20px;
 }
 
 .badge-sale {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background-color: #969594;
-    color: white;
-    padding: 3px 15px;
-    border-radius: 3px;
-    z-index: 1;
+position: absolute;
+top: 30px;
+left: 30px;
+background-color: #969594;
+color: white;
+padding: 3px 15px;
+border-radius: 3px;
+z-index: 1;
 }
 
 .badge-sale:hover {
-    background-color: #ad8e5d;
+background-color: #ad8e5d;
 }
 
 .sidebar {
-    max-width: 300px;
-    padding: 30px;
+max-width: 300px;
+padding: 30px;
 }
 
 .sidebar h2 {
-    font-size: 24px;
-    font-weight: bold;
+font-size: 24px;
+font-weight: bold;
 }
 
 .form-control:focus,
 .form-select:focus {
-    box-shadow: none;
-    border-color: #000;
+box-shadow: none;
+border-color: #000;
 }
 
 .price-slider {
-    width: 100%;
-    height: 3px;
-    background-color: #000;
-    border-radius: 5px;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+width: 100%;
+height: 3px;
+background-color: #000;
+border-radius: 5px;
+position: relative;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .price-slider::before,
 .price-slider::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 3px;
-    height: 10px;
-    background-color: #000;
-    transform: translateY(-50%);
+content: "";
+position: absolute;
+top: 50%;
+width: 3px;
+height: 10px;
+background-color: #000;
+transform: translateY(-50%);
 }
 
 .price-slider::before {
-    left: 0;
+left: 0;
 }
 
 .price-slider::after {
-    right: 0;
+right: 0;
 }
 
 .price-text span {
-    color: #9ea2a7;
-    font-size: 16px;
+color: #9ea2a7;
+font-size: 16px;
 }
 
 .filter-link {
-    color: #ad8e5d;
-    text-decoration: none;
-    font-weight: 500;
+color: #ad8e5d;
+text-decoration: none;
+font-weight: 500;
 }
 
 .filter-link:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .form-switch .form-check-input {
-    width: 2.5em;
-    height: 1.4em;
+width: 2.5em;
+height: 1.4em;
 }
 
 .form-switch .form-check-label {
-    margin-left: 0.5em;
-    font-size: 16px;
+margin-left: 0.5em;
+font-size: 16px;
 }
 
 .form-check-input:checked {
-    background-color: #ad8e5d !important;
-    border-color: #ad8e5d !important;
+background-color: #ad8e5d !important;
+border-color: #ad8e5d !important;
 }
+
 .form-check-input:focus {
-  box-shadow: 0 0 0 0.25rem rgba(175, 118, 25, 0.25);
+box-shadow: 0 0 0 0.25rem rgba(175, 118, 25, 0.25);
 }
 
 .form-check-input {
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
 }
+
 .search-box {
-    position: relative;
+position: relative;
 }
 
 .search-box input {
-    border: none;
-    border-bottom: 1px solid #ccc;
-    border-radius: 0;
-    padding-left: 0;
+border: none;
+border-bottom: 1px solid #ccc;
+border-radius: 0;
+padding-left: 0;
 }
 
 .search-box input:focus {
-    box-shadow: none;
-    border-bottom: 1px solid #000;
+box-shadow: none;
+border-bottom: 1px solid #000;
 }
 
 .search-box .search-icon {
-    width: 15px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    color: #555;
-    cursor: pointer;
+width: 15px;
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+font-size: 18px;
+color: #555;
+cursor: pointer;
 }
 
 @media screen and (max-width: 1400px) {
-    .sidebar {
-        max-width: 100%;
-        width: 100%;
-        padding: 20px;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-        margin-bottom: 20px;
-    }
+.sidebar {
+max-width: 100%;
+width: 100%;
+padding: 20px;
+border-right: none;
+border-bottom: 1px solid #ddd;
+margin-bottom: 20px;
+}
 
-    .col-md-9 {
-        width: 100%;
-    }
+.col-md-9 {
+width: 100%;
+}
 
-    .product-card img {
-        width: 100%;
-    }
+.product-card img {
+width: 100%;
+}
 }
 
 @media screen and (max-width: 768px) {
-    .col-md-4 {
-        width: 50%;
-    }
-      nav .nav1{
-  border-right: none
+.col-md-4 {
+width: 50%;
+}
+
+nav .nav1 {
+border-right: none
 }
 }
 
 @media screen and (max-width: 576px) {
-    .col-md-4 {
-        width: 100%;
-    }
+.col-md-4 {
+width: 100%;
+}
 
-    .sidebar {
-        padding: 15px;
-    }
+.sidebar {
+padding: 15px;
+}
 }
