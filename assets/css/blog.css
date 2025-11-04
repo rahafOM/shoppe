@@ -65,16 +65,3 @@
  .comment .reply:hover {
  text-decoration: underline;
  }
-
- @keyframes fadeUp {
- to {
- transform: translateY(0);
- }
- }
- .reveal {
- transform: translateY(40px);
- transition: all 1s ease;
- }
- .reveal.active {
- transform: translateY(0);
- }
