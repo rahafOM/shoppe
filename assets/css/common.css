@@ -1,0 +1,39 @@
+/* Shared corrections loaded after page-specific styles. */
+[hidden] { display: none !important; }
+body { font-family: 'Noto Sans', 'Segoe UI', sans-serif; }
+:focus-visible { outline: 3px solid #ad8e5d; outline-offset: 4px; }
+.account-container { max-width: 540px; margin: 70px auto; padding: 0 20px; }
+.forgot-container { max-width: 640px; margin: 70px auto; padding: 20px; text-align: center; }
+.forgot-container form { width: 100%; }
+.btn-reset { width: 100%; padding: 12px 20px; }
+.hero .carousel-item > img { height: 420px !important; object-fit: cover; }
+.product-card:focus-within .add-to-cart-btn { opacity: 1; }
+.store-status { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); max-width: min(90vw, 600px); padding: 14px 20px; background: #222; color: white; border-radius: 6px; z-index: 2000; visibility: hidden; }
+.store-status.visible { visibility: visible; }
+.cart-dialog { width: min(620px, 94vw); max-height: 85vh; padding: 28px; border: 1px solid #ddd; border-radius: 10px; }
+.cart-dialog::backdrop { background: rgb(0 0 0 / 45%); }
+.cart-close { float: right; font-size: 26px; }
+.cart-row { display: flex; align-items: center; gap: 12px; margin: 20px 0; }
+.cart-row img { width: 64px; height: 64px; object-fit: cover; }
+.cart-row > div { flex: 1; }
+.cart-row a { color: #222; }
+.cart-total { font-weight: 700; }
+.cart-count { color: #222; font-size: 12px; margin-left: 4px; }
+.star-rating img { max-width: 120px; height: auto; }
+.btn-custom { border: 1px solid #222; }
+.contact-container textarea { resize: vertical; min-height: 110px; padding-top: 12px; }
+@media (max-width: 767px) {
+  .hero .carousel-item > img { height: 260px !important; }
+  .hero-caption h2 { font-size: clamp(24px, 6vw, 36px); }
+  .typing-effect { white-space: normal; width: auto; animation: none; border: 0; }
+  .product-card { padding: 8px; }
+  .product-title { font-size: 16px; }
+  .add-to-cart-btn { position: static !important; transform: none !important; opacity: 1; width: 100%; border-radius: 4px; font-size: 12px; margin-top: 8px; }
+  .sidebar { width: 100%; max-width: none; }
+  .product-main { margin-bottom: 24px; }
+  .cart-row { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .typing-effect { width: auto; border: 0; }
+}

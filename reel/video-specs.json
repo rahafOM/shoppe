@@ -1,0 +1,19 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration_seconds": 32,
+  "format": "MP4 / H.264 / AAC",
+  "captions": "English",
+  "soundtrack": "Original synthesized instrumental",
+  "shots": [
+    "THE HOMEPAGE",
+    "THE COLLECTION",
+    "SMART PRODUCT SEARCH",
+    "PRODUCT DETAILS",
+    "THE SHOPPING CART",
+    "OUR STORY + BLOG",
+    "CONTACT PAGE",
+    "SHOPPE / WEBSITE SHOWCASE"
+  ]
+}

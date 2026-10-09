@@ -134,7 +134,7 @@ color: #555;
 cursor: pointer;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 767px) {
 .sidebar {
 max-width: 100%;
 width: 100%;
@@ -154,7 +154,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-.col-md-4 {
+.product-card-column {
 width: 50%;
 }
 
@@ -164,7 +164,7 @@ border-right: none
 }
 
 @media screen and (max-width: 576px) {
-.col-md-4 {
+.product-card-column {
 width: 100%;
 }
 

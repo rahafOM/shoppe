@@ -182,7 +182,7 @@
  .slider {
  display: none;
  }
- .col-md-4 {
+ .product-card-column {
  width: 50%;
  }
  nav .nav1{
@@ -190,7 +190,7 @@
  }
  }
  @media screen and (max-width: 576px) {
- .col-md-4 {
+ .product-card-column {
  width: 100%;
  }
  }

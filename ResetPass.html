@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shoppe - Jewelry Store</title>
+  <title>Reset Password - Shoppe</title>
   <link rel="icon" href="./assets/image/jewelry.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="./assets/css/index.css" />
   <link rel="stylesheet" href="./assets/css/resetpass.css" />
+  <link rel="stylesheet" href="./assets/css/common.css" />
 </head>
 
 <body>
@@ -85,20 +86,17 @@
     <div class="forgot-container">
       <h2>Have you Forgotten Your Password ?</h2>
       <p>
-        If you’ve forgotten your password, enter your e-mail address and we’ll
-        send you an e-mail
+        Password recovery requires a connected account service. No reset email can be sent from this demo.
       </p>
 
-      <form id="resetForm">
+      <form method="post" id="resetForm">
         <div class="mb-4">
           <input type="email" id="email" class="form-control" placeholder="Email" required />
         </div>
         <button type="submit" class="btn btn-reset">RESET PASSWORD</button>
       </form>
 
-      <div id="message" class="alert alert-success">
-        Password reset link has been sent to your email.
-      </div>
+      
     </div>
 
     <!-- Footer -->
@@ -125,7 +123,7 @@
 
           <!-- Newsletter Section -->
           <div class="col-md-4 mb-4 mb-md-0">
-            <form class="newsletter-form d-flex justify-content-center align-items-center border-bottom pb-2 mx-auto"
+            <form method="post" class="newsletter-form d-flex justify-content-center align-items-center border-bottom pb-2 mx-auto"
               style="max-width: 360px">
               <input type="email" class="form-control border-0 text-center text-md-start shadow-none"
                 placeholder="Give an email, get the newsletter" />
@@ -149,18 +147,8 @@
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document
-      .getElementById("resetForm")
-      .addEventListener("submit", function(e) {
-        e.preventDefault();
-        const email = document.getElementById("email").value;
-        if (email) {
-          document.getElementById("message").style.display = "block";
-          document.getElementById("resetForm").reset();
-        }
-      });
-  </script>
+  
+  <script src="./assets/js/store.js" defer></script>
 </body>
 
 </html>
